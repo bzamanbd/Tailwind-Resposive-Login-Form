@@ -9,7 +9,7 @@ module.exports = {
         'top': '0 -5px 10px rgba(0, 0, 0, 0.1)',
         'bottom': '0 5px 10px rgba(0, 0, 0, 0.1)',
         'right-bottom': '5px 5px 15px rgba(0, 0, 0, 0.2)',
-        'all': '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)',
+        'all': '0 1px 15px rgba(0, 0, 0, 0.2), 0 1px 5px rgba(0, 0, 0, 0.1)',
       },
     },
   },
