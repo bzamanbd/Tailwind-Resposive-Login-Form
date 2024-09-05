@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Responsive Login Form</title>
+</head>
+<body>
+    <div class="w-screen h-screen bg-black flex justify-center items-center">
+
+        <div class="bg-white p-3 sm:p-8 flex flex-col sm:flex-row sm:max-w-5xl sm:w-full sm:mx-auto sm:gap-4 justify-center items-center"> 
+
+            <div class="L sm:w-1/2 bg-[#E2ECFF] px-4 py-4 rounded-md sm:min-h-[600px] flex flex-col justify-center items-center">
+                <div class="min-h-[20rem] sm:min-h-[350px] flex flex-col justify-evenly items-center text-center px-[50px] sm:px-8 sm:flex-none"> 
+                    <img src="/images/codeabc-logo.jpg" alt="logo" class="w-24 h-24 rounded-md"/>
+                    <h1 class="text-2xl font-extrabold text-slate-800 ">Let us help you run your own platform</h1>
+                    <p class=" text-slate-600 text-sm">Our registration process is quicker than other edtech platform</p>
+                </div>
+            </div>
+
+            <div class="R sm:w-1/2 w-full flex flex-col p-8 sm:p-0 sm:gap-8">
+                <div class="pb-8"> 
+                    <h1 class="text-2xl text-slate-900 font-semibold">Get Started</h1>
+                    <p class="text-slate-900 text-sm">Create your account now!</p>
+                </div>
+                <form action="#"> 
+                    <div class="flex flex-col justify-center gap-8">
+                        <div class="inner1 flex flex-col gap-1"> 
+                            <label for="fName" class="text-slate-900 text-sm">Full Name:</label>
+                            <input type="text" name="fName" id="fName" placeholder="Jon Doue" class="focus:outline-none border-slate-600 border-[1px] focus:border-[#0082DF] rounded-md p-3 text-slate-600"/>
+                        </div>
+    
+                        <div class="inner2 flex flex-col gap-1"> 
+                            <label for="fEmail">Email:</label>
+                            <input type="email" name="fEmail" id="fEmail" placeholder="jondoue@example.com" class="focus:outline-none border-slate-600 border-[1px] focus:border-[#0082DF] rounded-md p-3 text-slate-600"/>
+                        </div>
+                        
+                        <div class="inner3 flex flex-col gap-1"> 
+                            <label for="fPassword">Password:</label>
+                            <input type="password" name="fPassword" id="fPassword" placeholder="* * * * * *" class="focus:outline-none border-slate-600 border-[1px] focus:border-[#0082DF] rounded-md p-3 text-slate-600"/>
+                        </div>
+    
+                        <div class="btn"> 
+                            <button class="bg-[#0082DF] text-white py-3 text-center rounded-md w-full">Sign up</button>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="text-center py-8 sm:py-0">
+                    <p class="text-slate-900 text-sm">Already a member? <strong class="text-[#0082DF]"><a href="#">Sign in</a></strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
