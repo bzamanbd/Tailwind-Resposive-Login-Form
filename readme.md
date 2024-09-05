@@ -1,6 +1,6 @@
 ## Mobile Version ##
-![in_mobile]([https://example.com/image.png](https://github.com/bzamanbd/Tailwind-Resposive-Login-Form/blob/master/images/iPhone%2014%20Pro%20Max.png?raw=true ) "")
+![in_mobile](https://github.com/bzamanbd/Tailwind-Resposive-Login-Form/blob/master/images/iPhone%2014%20Pro%20Max.png?raw=true "")
 
 
 ## PC Version ##
-https://github.com/bzamanbd/Tailwind-Resposive-Login-Form/blob/master/images/iPhone%2014%20Pro%20Max.png?raw=true 
+![pc](https://github.com/bzamanbd/Tailwind-Resposive-Login-Form/blob/master/images/iPhone%2014%20Pro%20Max.png?raw=true "")
